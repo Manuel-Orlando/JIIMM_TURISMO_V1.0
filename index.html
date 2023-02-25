@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Jim Turismo</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./FONT-AWESOME/fontawesome-free-6.2.1-web/css/all.min.css">
+        <link rel="stylesheet" href="./css/mobile/inicio.css">
+    </head>
+    <body>
+        <header>
+            <section class="navbar_section">
+                <button class="btn_menu"><i class="fa-solid fa-bars"></i></button>
+                <a href="#" class="logo">Jim Turismo</a>
+                <button class="btn_search"><i class="fa-solid fa-magnifying-glass icon"></i></button>
+            </section>
+            <nav class="menu_container">
+                <ul class="menu_list">
+                    <li class="menu_item" id="item_inicio"><a href="#"><i class="fa-sharp fa-solid fa-house-chimney"></i>Início</a></li>
+                    <li class="menu_item"><a href="#"><i class="fa-solid fa-bus-simple"></i>Passeios</a></li>
+                    <li class="menu_item"><a href="#"><i class="fa-solid fa-rectangle-list"></i>Fretamento</a></li>
+                    <li class="menu_item"><a href="#"><i class="fa-solid fa-map-location-dot"></i>Roteiros</a></li>
+                    <li class="menu_item"><a href="#"><i class="fa-solid fa-image"></i>Fotos</a></li>
+                    <li class="menu_item"><a href="#"><i class="fa-solid fa-address-card"></i>Contato</a></li>
+                    <li class="menu_item"><a href="#"><i class="fa-solid fa-circle-question"></i>Dúvidas</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="banner_section">
+                <img src="./img/mobile/banner_inicio_png.png" alt="Banner: Colecionando momentos.">
+            </section>
+            <section class="passeios_section">
+                <h2 class="categoria_txt"><i class="fa-solid fa-bus-simple"></i>Passeios</h2>
+                <nav id="card_passeios_nav">
+                    <ul id="card_passeios_ul">
+                        <li id="passeios_destaque">
+                            <a href="#" class="passeios_link">
+                                <img src="./img/mobile/card_passeio_porto_de_galinhas_png.jpg" id="passeios_destaque_img" alt="imagem de Porto de galinhas">
+                                <div class="passeios_img_txt_content">
+                                    <h3><i class="fa-solid fa-location-dot"></i>Porto de galinhas - PE</h3>
+                                    <span><i class="fa-solid fa-calendar-days"></i>14 a 17 de março</span>
+                                    <span><i class="fa-solid fa-money-check-dollar"></i>5x de 75,00 R$</span>
+                                    <span id="passeios_card_legenda">Aperte no card para saber mais.</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="passeios_padrao passeio_01">
+                            <a href="#" class="passeios_link">
+                                <img src="./img/mobile/card_passeio_joao_pessoa_png.jpg" class="passeios_img" alt="Imagem de João Pessoa">
+                                <div class="passeios_padrao_img_txt_content passeios_img_txt_content">
+                                    <h3>João Pessoa</h3>
+                                    <span><i class="fa-solid fa-calendar-days"></i>21 a 23 de março.</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="passeios_padrao passeio_02">
+                            <a href="#" class="passeios_link">
+                                <img src="./img/mobile/card_passeio_maceio_png.jpg" class="passeios_img" alt="Imagem de João Pessoa">
+                                <div class="passeios_padrao_img_txt_content passeios_img_txt_content">
+                                    <h3>Maceió</h3>
+                                    <span><i class="fa-solid fa-calendar-days"></i>01 a 04 de abril.</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="passeios_padrao passeio_03">
+                            <a href="#" class="passeios_link">
+                                <img src="./img/mobile/card_passeio_fortaleza_png.jpg" class="passeios_img" alt="Imagem de João Pessoa">
+                                <div class="passeios_padrao_img_txt_content passeios_img_txt_content">
+                                    <h3>Forta<br>leza</h3>
+                                    <span><i class="fa-solid fa-calendar-days"></i>11 a 14 de abril.</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="passeios_padrao passeio_04">
+                            <a href="#" class="passeios_link">
+                                <img src="./img/mobile/card_passeio_gramado_png.jpg" class="passeios_img" alt="Imagem de João Pessoa">
+                                <div class="passeios_padrao_img_txt_content passeios_img_txt_content">
+                                    <h3>Grama<br>do</h3>
+                                    <span><i class="fa-solid fa-calendar-days"></i>26 a 30 de julho.</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="passeios_btn">
+                            <a href="#" class="btn_mais"><i class="fa-solid fa-plus"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        
+            <section class="fretamento_section">
+                <h2 class="categoria_txt"><i class="fa-solid fa-rectangle-list"></i>Fretamento</h2>
+                <img src="./img/mobile/fretamento_img_banner.jpg" alt="Pessoas caminhando na areia">
+                <p>Vai passear com a sua galera mas não sabe como organizar a viagem?</p>
+                <p>Não tem problema a Jim te ajuda, com o nosso sistema de fretamento você agora pode colocar todas as informações da sua viagem e depois a gente faz o resto, alugar uma van, fazer reservas, contratar guia turistico, você não precisa mais se preucupar, a gente cuida de tudo isso por você, solicite agora mesmo o fretamento de sua viagem.</p>
+                <a href="#" class="btn_mais">Solicitar</a>
+            </section>
+            
+            <section class="roteiros_section">
+                <h2 class="categoria_txt"><i class="fa-solid fa-map-location-dot"></i>Roteiros</h2>
+                <nav id="roteiros_nav">
+                    <ul id="roteiros_content">
+                        <li id="card_roteiros_destaque">
+                            <a href="#" id="roteiro_destaque">
+                                <img src="./img/mobile/card_roteiros_destaque.jpg" id="roteiro_destaque_img" alt="Foto de Fernando de Noronha">
+                                <h3><i class="fa-solid fa-location-dot iconrotdest"></i>Fernando de Noronha - PE</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <div class="roteiros_tag_content">
+                                    <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                                    <i class="fa-solid fa-plane"></i>
+                                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                                    <i class="fa-solid fa-hotel"></i>
+                                    <i class="fa-solid fa-utensils"></i>
+                                    <i class="fa-solid fa-route"></i>
+                                </div>
+                                <span id="roteiro_destaque_legenda">Aperte no card para saber mais.</span>
+                            </a>
+                        </li>
+                        <li class="card_roteiros_padrao">
+                            <a href="#" class="roteiro_padrao">
+                                <img src="./img/mobile/card_roteiros_padrao.jpg" class="roteiro_padrao_img" alt="Foto de Salvador">
+                                <div class="roteiro_padrao_txt_content">
+                                    <h3><i class="fa-solid fa-location-dot icondest iconrotdest"></i>Salvador - BA</h3>
+                                    <div class="roteiros_padrao_tag_content">
+                                        <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                                        <i class="fa-solid fa-plane"></i>
+                                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                                        <i class="fa-solid fa-hotel"></i>
+                                        <i class="fa-solid fa-utensils"></i>
+                                        <i class="fa-solid fa-route"></i>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-plus iconrotpad"></i>
+                            </a>
+                        </li>
+                        <li class="card_roteiros_padrao">
+                            <a href="#" class="roteiro_padrao">
+                                <img src="./img/mobile/card_roteiros_padrao.jpg" class="roteiro_padrao_img" alt="Foto de Salvador">
+                                <div class="roteiro_padrao_txt_content">
+                                    <h3><i class="fa-solid fa-location-dot icondest iconrotdest"></i>Salvador - BA</h3>
+                                    <div class="roteiros_padrao_tag_content">
+                                        <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                                        <i class="fa-solid fa-plane"></i>
+                                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                                        <i class="fa-solid fa-hotel"></i>
+                                        <i class="fa-solid fa-utensils"></i>
+                                        <i class="fa-solid fa-route"></i>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-plus iconrotpad"></i>
+                            </a>
+                        </li>
+                        <li class="card_roteiros_padrao">
+                            <a href="#" class="roteiro_padrao">
+                                <img src="./img/mobile/card_roteiros_padrao.jpg" class="roteiro_padrao_img" alt="Foto de Salvador">
+                                <div class="roteiro_padrao_txt_content">
+                                    <h3><i class="fa-solid fa-location-dot icondest iconrotdest"></i>Salvador - BA</h3>
+                                    <div class="roteiros_padrao_tag_content">
+                                        <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                                        <i class="fa-solid fa-plane"></i>
+                                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                                        <i class="fa-solid fa-hotel"></i>
+                                        <i class="fa-solid fa-utensils"></i>
+                                        <i class="fa-solid fa-route"></i>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-plus iconrotpad"></i>
+                            </a>
+                        </li>
+                        <li id="roteiros_btn">
+                            <a href="#" class="btn_mais"><i class="fa-solid fa-plus"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            
+            <section class="fotos_section">
+                <h2 class="categoria_txt"><i class="fa-solid fa-image"></i>Fotos</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./img/fotos/05c8da30c451ce021ac0a652d4f62eb4.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/fotos/3a608ab182c0ff3aaf4190444a2100cc.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/fotos/e0fa0a571f9cdbd88f618037cb5ade66.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/fotos/9ac088f008229b258c16e6292c34beec.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/fotos/8710855820b8a6b5e2a4969b9568afa6.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/fotos/72c7a0a131f6ed77bfc7bf203ed47bf8.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+            <section class="contato_section">
+                <h2 class="categoria_txt"><i class="fa-solid fa-address-card"></i>Contato</h2>
+                <div class="contato_conteudo">
+                    <div class="whatsapp_conteudo">
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <p>Whatsapp</p>
+                    </div>
+                    <div class="instagram_conteudo">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <p>Instagram</p>
+                    </div>
+                    <div class="email_conteudo">
+                        <a href="mailto:jjunior2006v@yahoo.com.br"><i class="fa-regular fa-envelope"></i></a>
+                        <p>E-mail</p>
+                    </div>
+                </div>
+                <p class="contato_local"><i class="fa-solid fa-location-dot"></i>R. nova viagem, 100, Goiana, PE.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1279721096976!2d-34.9986230857174!3d-7.561023276763608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab628cb23de4c7%3A0xd4f47d0d79e3e881!2sR.%20do%20Gravata%20-%20Goiana%2C%20PE%2C%2055900-000!5e0!3m2!1spt-BR!2sbr!4v1677014657460!5m2!1spt-BR!2sbr" width="350" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+    
+            <footer class="footer_section">
+                <h4>Jim Turismo</h4>
+                <p><i class="fa-brands fa-creative-commons"></i>2023 - 2024 | Ionara, Junior & Cia.</p>
+                <p>CNPJ: 55.555.555/0001-55</p>
+                <p>Todas as imagens, são marcas registradas dos seus respectivos proprietários.</p>
+                <p>Desenvolvido por:</p>
+            </footer>
+        </main>
+        <script src="./js/navbar.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="./js/fotos.js"></script>
+    </body>
+</html>
